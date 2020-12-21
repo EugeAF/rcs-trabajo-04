@@ -1,17 +1,31 @@
-body{
-    background-color:white;
+*{
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
 }
-
 div{
-    display: block;
-    width: 400px;
-    background-color: tomato;
-    margin: 100px;
+    position: relative;
+    background-color: parent;
 }
-
+nav{
+    background-color: purple;
+    height: 40px;
+}
+aside{
+    width: 200px;
+    position: absolute;
+    background-color: none;
+ }
 section{
-    display: block;
-    width: 400px;
-    background-color: turquoise;
-    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: green;
+    background-color: thistle;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-left: 200px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
 }
