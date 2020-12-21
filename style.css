@@ -1,0 +1,17 @@
+body{
+    background-color:white;
+}
+
+div{
+    display: block;
+    width: 400px;
+    background-color: tomato;
+    margin: 100px;
+}
+
+section{
+    display: block;
+    width: 400px;
+    background-color: turquoise;
+    text-align: center;
+}
